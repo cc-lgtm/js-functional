@@ -1,4 +1,4 @@
-let _ = require('underscore')
+const _ = require('underscore')
 
 _.each([1, 2, 3], print)
 function print(value) {
