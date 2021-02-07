@@ -30,3 +30,11 @@ console.log('abc', 0)
 console.log(nth({}, 2))
 console.log(nth(letters, 4000))
 console.log(letters, 'aaaaa')
+
+function second(a) {
+    return nth(a, 1)
+}
+
+second(['a', 'b'])
+second('fogus')
+second({})
